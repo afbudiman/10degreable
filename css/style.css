@@ -10,7 +10,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    /* text-transform: capitalize; */
+    text-transform: capitalize;
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -38,7 +38,7 @@ section{
     border-width: 1px;
     border-radius: 5px;
     width: 50%;
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(75, 75, 75);
     margin-top: 20px;
     display: inline-grid;
     grid-template-columns: 440px auto;
@@ -49,9 +49,9 @@ section{
     max-width: 440px;
 }
 
-.card .card-body .h2{
-    color:rgb(235, 232, 232);
-}
+/* .card .h2{
+    color:rgb(67, 231, 76);
+} */
 
 .card .card-link{
     padding: 1rem;
